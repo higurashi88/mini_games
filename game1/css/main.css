@@ -1,0 +1,15 @@
+#container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+}
+
+#player {
+    position: absolute;
+    top: 0;
+    /* 初期位置 */
+    left: 50%;
+    /* 初期位置 */
+    transform: translateX(-50%);
+    /* 水平中央揃え */
+}
